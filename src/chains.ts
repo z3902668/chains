@@ -23,7 +23,7 @@ export const CHAIN_POLYGON_MUMBAI = 80001
 export const CHAIN_BSC = 56
 export const CHAIN_BSC_TESTNET = 97
 
-export const CHAIN_BASE = 8543
+export const CHAIN_BASE = 8453
 
 export const CHAIN_HECO = 128
 export const CHAIN_HECO_TESTNET = 256
