@@ -23,6 +23,8 @@ export const CHAIN_POLYGON_MUMBAI = 80001
 export const CHAIN_BSC = 56
 export const CHAIN_BSC_TESTNET = 97
 
+export const CHAIN_BASE = 8543
+
 export const CHAIN_HECO = 128
 export const CHAIN_HECO_TESTNET = 256
 
@@ -174,6 +176,17 @@ export const Chains: {[chainID: number]: Metadata} = {
     decimals: 18,
     rpc: 'https://http-testnet.hecochain.com',
     explorer: 'https://testnet.hecoinfo.com',
+  },
+  [CHAIN_BASE]: {
+    name: 'Base Chain',
+    displayName: 'ETH',
+    icon: 'https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/svg/color/eth.svg',
+    whiteIcon: 'https://i.postimg.cc/nLwMCQdH/Base-Symbol-Blue.png',
+    tokenIcon: 'https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/svg/color/eth.svg',
+    symbol: 'ETH',
+    decimals: 18,
+    rpc: 'https://mainnet.base.org',
+    explorer: 'https://basescan.org',
   },
   [CHAIN_BSC]: {
     name: 'BNB Chain Mainnet',
