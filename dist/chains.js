@@ -154,7 +154,7 @@ exports.Chains = (_a = {},
     _a[exports.CHAIN_BASE] = {
         name: 'Base Chain',
         displayName: 'ETH',
-        icon: 'https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/svg/color/eth.svg',
+        icon: 'https://i.postimg.cc/nLwMCQdH/Base-Symbol-Blue.png',
         whiteIcon: 'https://i.postimg.cc/nLwMCQdH/Base-Symbol-Blue.png',
         tokenIcon: 'https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/svg/color/eth.svg',
         symbol: 'ETH',
